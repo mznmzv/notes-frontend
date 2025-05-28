@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    --toastify-color-progress-light: oklch(0.623 0.214 259.815) !important;
+  }
+  html {
+    font-family: 'Open Sans', sans-serif;
+  }
+  html,
+  body,
+  #root {
+    height: 100vh;
+  }
+  body {
+    background-color: #fdfeff;
+  }
+}
